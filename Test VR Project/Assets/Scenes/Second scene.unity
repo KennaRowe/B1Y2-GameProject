@@ -14498,7 +14498,7 @@ MonoBehaviour:
   leftTeleportation: {fileID: 418573179}
   rightTeleportation: {fileID: 171366064}
   leftActivate:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Left Activate
       m_Type: 0
@@ -14511,7 +14511,7 @@ MonoBehaviour:
     m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   rightActivate:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Right Activate
       m_Type: 0
@@ -14521,7 +14521,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
   leftCancel:
     m_UseReference: 1
     m_Action:
